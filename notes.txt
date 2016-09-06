@@ -1,0 +1,36 @@
+pyraf:
+- ? shows contents of current directory
+- epar:
+   - suluissa optional parameters
+- .exit poistuu (cl: lo)
+- normaalit komennot irafista: aloita huutomerkillä, esim !ds9
+
+ds9
+- scale -> zscale defaultskaalaa
+
+Bias correction
+---------------
+- Navigate to right task:
+   noao -> imred -> ccdred
+   epar ccdproc
+- Raw files have multiple headers because ???, when using them, give image.fits[1] (otherwise just image.fits) to images. Could be a list of images too if I recall correctly.
+- Give output name.
+- Do not use ccdtype, you will fuck up with it at some point anyway
+- Set all radio buttons to no except zerocor (bias correction)
+- Give bias.fits file to zero field. Remember [1] for raw files.
+
+Trimming
+--------
+- Navigate to right task:
+   noao -> imred -> ccdred
+   epar ccdproc
+- Give trimsec in format [x1:x2,y1:y2] (include area between (x1, y1) and (y1, y2). For NOT images [58:2024,2:2036] is good. It leaves rounded corners thgough, shouldn't be problem according to Clif.
+
+Flat field correction
+---------------------
+- navigate to right task:
+   noao -> imred -> ccdred
+   epar ccdproc
+- Give image and output
+- Flatcor to yes
+- Set flat to (bias corrected) flat field.

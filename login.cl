@@ -22,7 +22,7 @@ stty xgterm
 #set	editor		= vi
 #set	printer		= lp
 #set	pspage		= "letter"
-#set	stdimage	= imt2048
+set	stdimage	= imt2048
 #set	stdimcur	= stdimage
 #set	stdplot		= lw
 #set	clobber		= no

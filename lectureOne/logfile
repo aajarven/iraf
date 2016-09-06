@@ -1,0 +1,5 @@
+image.fits[1]: Sep  6 13:40 Trim data section is [58:2024,2:2036]
+bias.fits[1]: Sep  6 13:40 Trim data section is [58:2024,2:2036]
+image.fits[1]: Sep  6 13:43 Zero level correction image is bias.fits[1]
+flatfield.fits[1]: Sep  6 13:54 Zero level correction image is bias.fits[1]
+b-image.fits: Sep  6 13:54 Flat field image is b-flatfield.fits with scale=86985.45

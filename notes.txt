@@ -1,3 +1,10 @@
+*****************************
+*          General          *
+*****************************
+
+IRAF:
+- on heaven, edit instrument parameter (lecture slides 1)
+
 pyraf:
 - ? shows contents of current directory
 - epar:

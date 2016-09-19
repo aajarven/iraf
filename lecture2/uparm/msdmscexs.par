@@ -10,6 +10,6 @@ dataless,b,h,no,,,'Include dataless image headers?'
 ikparams,s,h,'',,,'Image kernel parameters
 
 # Output parameters'
-nimages,i,h,1,,,'Number of images in list'
+nimages,i,h,0,,,'Number of images in list'
 imext,b,h,no,,,'List contains image extensions'
 mode,s,h,'al'

@@ -1,5 +1,5 @@
 input,s,a,,,,'List of images to combine'
-output,f,h,'outputs/superskies/sflat.fits',,,'Output sky flat field root name'
+output,f,h,'outputs/superskies/sflat2.fits',,,'Output sky flat field root name'
 combine,s,h,'average','|average|median|',,'Type of combine operation'
 reject,s,h,'ccdclip',,,'Type of rejection'
 ccdtype,s,h,' ',,,'CCD image type to combine'

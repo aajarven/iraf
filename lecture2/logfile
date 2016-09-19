@@ -419,3 +419,2030 @@ Sep 19  3:02: IMCOMBINE
   ../rawdata/lecture2/bias/bias9_raw.fits[1]
 
   Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19 12:31: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19 12:31 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19 12:31 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19 12:31 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19 12:31 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19 12:31 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19 12:31 Zero level correction image is outputs/masterbias.fits
+
+Sep 19 12:31: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  ../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]    5.2
+  ../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]    6.4
+  ../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+
+Sep 19 12:34: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  ../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]    5.2
+  ../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]    6.4
+  ../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+
+Sep 19 12:35: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+outputs/masterbias.fits: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19 12:35 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19 12:35 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19 12:35 Zero level correction image is outputs/masterbias.fits
+
+Sep 19 12:35: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  ../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]    5.2
+  ../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]    6.4
+  ../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+
+Sep 19 12:35: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+outputs/masterbias.fits: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19 12:35 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19 12:35 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19 12:35 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19 12:35 Zero level correction image is outputs/masterbias.fits
+
+Sep 19 12:35: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  ../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]    5.2
+  ../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]    6.4
+  ../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+outputs/zerocor-image1.fits: Sep 19 12:35 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image2.fits: Sep 19 12:35 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image3.fits: Sep 19 12:35 Flat field image is outputs/masterflat.fits with scale=95807.79
+
+Sep 19 12:36: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:36 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 12:37: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19 12:37: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:37 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:37 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 12:54: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19 12:54: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:54 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:54 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 12:55: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19 12:56: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:56 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:56 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 12:57: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19 12:59: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:59 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 12:59 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:02: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:02 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:02 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:02: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19 13:05: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:05 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:05 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:08: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+                Images     Mode  Scale
+  outputs/superskies/biascor-ALyi070063.fits  3161.5  1.000
+  outputs/superskies/biascor-ALyi070064.fits  3270.5  0.967
+  outputs/superskies/biascor-ALyi070065.fits   3297.  0.959
+  outputs/superskies/biascor-ALyi070070.fits  3282.5  0.963
+  outputs/superskies/biascor-ALyi070071.fits   3268.  0.967
+  outputs/superskies/biascor-ALyi070072.fits  3402.5  0.929
+  outputs/superskies/biascor-ALyi070123.fits  2664.5  1.187
+  outputs/superskies/biascor-ALyi070124.fits   2632.  1.201
+  outputs/superskies/biascor-ALyi070125.fits   2614.  1.209
+  outputs/superskies/biascor-ALyi070130.fits  2937.5  1.076
+  outputs/superskies/biascor-ALyi070131.fits  2964.5  1.066
+  outputs/superskies/biascor-ALyi070132.fits   2991.  1.057
+  outputs/superskies/biascor-ALyi070137.fits  3142.5  1.006
+  outputs/superskies/biascor-ALyi070138.fits   3149.  1.004
+  outputs/superskies/biascor-ALyi070139.fits   3177.  0.995
+  outputs/superskies/biascor-ALyi070144.fits  2887.5  1.095
+  outputs/superskies/biascor-ALyi070145.fits   2841.  1.113
+  outputs/superskies/biascor-ALyi070146.fits   2834.  1.116
+  outputs/superskies/biascor-ALyi070151.fits  2704.5  1.169
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.154
+  outputs/superskies/biascor-ALyi070153.fits  2764.5  1.144
+  outputs/superskies/biascor-ALyi070158.fits   2392.  1.322
+  outputs/superskies/biascor-ALyi070159.fits   2463.  1.284
+  outputs/superskies/biascor-ALyi070160.fits   2681.  1.179
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 13:22: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:22 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:22: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+                Images     Mode  Scale
+  outputs/superskies/biascor-ALyi070063.fits  3161.5  1.000
+  outputs/superskies/biascor-ALyi070064.fits  3270.5  0.967
+  outputs/superskies/biascor-ALyi070065.fits   3297.  0.959
+  outputs/superskies/biascor-ALyi070070.fits  3282.5  0.963
+  outputs/superskies/biascor-ALyi070071.fits   3268.  0.967
+  outputs/superskies/biascor-ALyi070072.fits  3402.5  0.929
+  outputs/superskies/biascor-ALyi070123.fits  2664.5  1.187
+  outputs/superskies/biascor-ALyi070124.fits   2632.  1.201
+  outputs/superskies/biascor-ALyi070125.fits   2614.  1.209
+  outputs/superskies/biascor-ALyi070130.fits  2937.5  1.076
+  outputs/superskies/biascor-ALyi070131.fits  2964.5  1.066
+  outputs/superskies/biascor-ALyi070132.fits   2991.  1.057
+  outputs/superskies/biascor-ALyi070137.fits  3142.5  1.006
+  outputs/superskies/biascor-ALyi070138.fits   3149.  1.004
+  outputs/superskies/biascor-ALyi070139.fits   3177.  0.995
+  outputs/superskies/biascor-ALyi070144.fits  2887.5  1.095
+  outputs/superskies/biascor-ALyi070145.fits   2841.  1.113
+  outputs/superskies/biascor-ALyi070146.fits   2834.  1.116
+  outputs/superskies/biascor-ALyi070151.fits  2704.5  1.169
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.154
+  outputs/superskies/biascor-ALyi070153.fits  2764.5  1.144
+  outputs/superskies/biascor-ALyi070158.fits   2392.  1.322
+  outputs/superskies/biascor-ALyi070159.fits   2463.  1.284
+  outputs/superskies/biascor-ALyi070160.fits   2681.  1.179
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 13:24: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:24 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:24 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:24: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+                Images     Mode  Scale
+  outputs/superskies/biascor-ALyi070063.fits  3161.5  1.000
+  outputs/superskies/biascor-ALyi070064.fits  3270.5  0.967
+  outputs/superskies/biascor-ALyi070065.fits   3297.  0.959
+  outputs/superskies/biascor-ALyi070070.fits  3282.5  0.963
+  outputs/superskies/biascor-ALyi070071.fits   3268.  0.967
+  outputs/superskies/biascor-ALyi070072.fits  3402.5  0.929
+  outputs/superskies/biascor-ALyi070123.fits  2664.5  1.187
+  outputs/superskies/biascor-ALyi070124.fits   2632.  1.201
+  outputs/superskies/biascor-ALyi070125.fits   2614.  1.209
+  outputs/superskies/biascor-ALyi070130.fits  2937.5  1.076
+  outputs/superskies/biascor-ALyi070131.fits  2964.5  1.066
+  outputs/superskies/biascor-ALyi070132.fits   2991.  1.057
+  outputs/superskies/biascor-ALyi070137.fits  3142.5  1.006
+  outputs/superskies/biascor-ALyi070138.fits   3149.  1.004
+  outputs/superskies/biascor-ALyi070139.fits   3177.  0.995
+  outputs/superskies/biascor-ALyi070144.fits  2887.5  1.095
+  outputs/superskies/biascor-ALyi070145.fits   2841.  1.113
+  outputs/superskies/biascor-ALyi070146.fits   2834.  1.116
+  outputs/superskies/biascor-ALyi070151.fits  2704.5  1.169
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.154
+  outputs/superskies/biascor-ALyi070153.fits  2764.5  1.144
+  outputs/superskies/biascor-ALyi070158.fits   2392.  1.322
+  outputs/superskies/biascor-ALyi070159.fits   2463.  1.284
+  outputs/superskies/biascor-ALyi070160.fits   2681.  1.179
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 13:34: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:34 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:34 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:34: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+                Images     Mode  Scale
+  outputs/superskies/biascor-ALyi070063.fits  3161.5  1.000
+  outputs/superskies/biascor-ALyi070064.fits  3270.5  0.967
+  outputs/superskies/biascor-ALyi070065.fits   3297.  0.959
+  outputs/superskies/biascor-ALyi070070.fits  3282.5  0.963
+  outputs/superskies/biascor-ALyi070071.fits   3268.  0.967
+  outputs/superskies/biascor-ALyi070072.fits  3402.5  0.929
+  outputs/superskies/biascor-ALyi070123.fits  2664.5  1.187
+  outputs/superskies/biascor-ALyi070124.fits   2632.  1.201
+  outputs/superskies/biascor-ALyi070125.fits   2614.  1.209
+  outputs/superskies/biascor-ALyi070130.fits  2937.5  1.076
+  outputs/superskies/biascor-ALyi070131.fits  2964.5  1.066
+  outputs/superskies/biascor-ALyi070132.fits   2991.  1.057
+  outputs/superskies/biascor-ALyi070137.fits  3142.5  1.006
+  outputs/superskies/biascor-ALyi070138.fits   3149.  1.004
+  outputs/superskies/biascor-ALyi070139.fits   3177.  0.995
+  outputs/superskies/biascor-ALyi070144.fits  2887.5  1.095
+  outputs/superskies/biascor-ALyi070145.fits   2841.  1.113
+  outputs/superskies/biascor-ALyi070146.fits   2834.  1.116
+  outputs/superskies/biascor-ALyi070151.fits  2704.5  1.169
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.154
+  outputs/superskies/biascor-ALyi070153.fits  2764.5  1.144
+  outputs/superskies/biascor-ALyi070158.fits   2392.  1.322
+  outputs/superskies/biascor-ALyi070159.fits   2463.  1.284
+  outputs/superskies/biascor-ALyi070160.fits   2681.  1.179
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 13:36: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:36 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:36 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:36: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+                Images     Mode  Scale
+  outputs/superskies/biascor-ALyi070063.fits  3161.5  1.000
+  outputs/superskies/biascor-ALyi070064.fits  3270.5  0.967
+  outputs/superskies/biascor-ALyi070065.fits   3297.  0.959
+  outputs/superskies/biascor-ALyi070070.fits  3282.5  0.963
+  outputs/superskies/biascor-ALyi070071.fits   3268.  0.967
+  outputs/superskies/biascor-ALyi070072.fits  3402.5  0.929
+  outputs/superskies/biascor-ALyi070123.fits  2664.5  1.187
+  outputs/superskies/biascor-ALyi070124.fits   2632.  1.201
+  outputs/superskies/biascor-ALyi070125.fits   2614.  1.209
+  outputs/superskies/biascor-ALyi070130.fits  2937.5  1.076
+  outputs/superskies/biascor-ALyi070131.fits  2964.5  1.066
+  outputs/superskies/biascor-ALyi070132.fits   2991.  1.057
+  outputs/superskies/biascor-ALyi070137.fits  3142.5  1.006
+  outputs/superskies/biascor-ALyi070138.fits   3149.  1.004
+  outputs/superskies/biascor-ALyi070139.fits   3177.  0.995
+  outputs/superskies/biascor-ALyi070144.fits  2887.5  1.095
+  outputs/superskies/biascor-ALyi070145.fits   2841.  1.113
+  outputs/superskies/biascor-ALyi070146.fits   2834.  1.116
+  outputs/superskies/biascor-ALyi070151.fits  2704.5  1.169
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.154
+  outputs/superskies/biascor-ALyi070153.fits  2764.5  1.144
+  outputs/superskies/biascor-ALyi070158.fits   2392.  1.322
+  outputs/superskies/biascor-ALyi070159.fits   2463.  1.284
+  outputs/superskies/biascor-ALyi070160.fits   2681.  1.179
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 13:39: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:39 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:39 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:39: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+                Images     Mode  Scale
+  outputs/superskies/biascor-ALyi070063.fits  3161.5  1.000
+  outputs/superskies/biascor-ALyi070064.fits  3270.5  0.967
+  outputs/superskies/biascor-ALyi070065.fits   3297.  0.959
+  outputs/superskies/biascor-ALyi070070.fits  3282.5  0.963
+  outputs/superskies/biascor-ALyi070071.fits   3268.  0.967
+  outputs/superskies/biascor-ALyi070072.fits  3402.5  0.929
+  outputs/superskies/biascor-ALyi070123.fits  2664.5  1.187
+  outputs/superskies/biascor-ALyi070124.fits   2632.  1.201
+  outputs/superskies/biascor-ALyi070125.fits   2614.  1.209
+  outputs/superskies/biascor-ALyi070130.fits  2937.5  1.076
+  outputs/superskies/biascor-ALyi070131.fits  2964.5  1.066
+  outputs/superskies/biascor-ALyi070132.fits   2991.  1.057
+  outputs/superskies/biascor-ALyi070137.fits  3142.5  1.006
+  outputs/superskies/biascor-ALyi070138.fits   3149.  1.004
+  outputs/superskies/biascor-ALyi070139.fits   3177.  0.995
+  outputs/superskies/biascor-ALyi070144.fits  2887.5  1.095
+  outputs/superskies/biascor-ALyi070145.fits   2841.  1.113
+  outputs/superskies/biascor-ALyi070146.fits   2834.  1.116
+  outputs/superskies/biascor-ALyi070151.fits  2704.5  1.169
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.154
+  outputs/superskies/biascor-ALyi070153.fits  2764.5  1.144
+  outputs/superskies/biascor-ALyi070158.fits   2392.  1.322
+  outputs/superskies/biascor-ALyi070159.fits   2463.  1.284
+  outputs/superskies/biascor-ALyi070160.fits   2681.  1.179
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 13:44: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:44 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:44 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:47: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19 13:48: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:48 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 13:48 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 13:48: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 14:09: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:09 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:09 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 14:09: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 14:11: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:11 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 14:12: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 14:18: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:18 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:18 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 14:19: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 14:22: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:22 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:22 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 14:23: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 14:27: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:27 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:27 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 14:27: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 14:38: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24
+
+Sep 19 14:41: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:41 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19 14:41 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19 14:42: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., sigma = 6., hsigma = 3.
+  grow = 3.
+  blank = 1.
+  masktype = goodval, maskval = 0
+                Images     Mode  Scale Maskfile
+  outputs/superskies/biascor-ALyi070063.fits  3158.5  1.000 outputs/superskies/objmask-biascor-ALyi070063[pl]
+  outputs/superskies/biascor-ALyi070064.fits   3268.  0.966 outputs/superskies/objmask-biascor-ALyi070064[pl]
+  outputs/superskies/biascor-ALyi070065.fits   3298.  0.958 outputs/superskies/objmask-biascor-ALyi070065[pl]
+  outputs/superskies/biascor-ALyi070070.fits   3276.  0.964 outputs/superskies/objmask-biascor-ALyi070070[pl]
+  outputs/superskies/biascor-ALyi070071.fits  3262.5  0.968 outputs/superskies/objmask-biascor-ALyi070071[pl]
+  outputs/superskies/biascor-ALyi070072.fits   3371.  0.937 outputs/superskies/objmask-biascor-ALyi070072[pl]
+  outputs/superskies/biascor-ALyi070123.fits   2665.  1.185 outputs/superskies/objmask-biascor-ALyi070123[pl]
+  outputs/superskies/biascor-ALyi070124.fits  2636.5  1.198 outputs/superskies/objmask-biascor-ALyi070124[pl]
+  outputs/superskies/biascor-ALyi070125.fits  2625.5  1.203 outputs/superskies/objmask-biascor-ALyi070125[pl]
+  outputs/superskies/biascor-ALyi070130.fits  2938.5  1.075 outputs/superskies/objmask-biascor-ALyi070130[pl]
+  outputs/superskies/biascor-ALyi070131.fits   2962.  1.066 outputs/superskies/objmask-biascor-ALyi070131[pl]
+  outputs/superskies/biascor-ALyi070132.fits  2991.5  1.056 outputs/superskies/objmask-biascor-ALyi070132[pl]
+  outputs/superskies/biascor-ALyi070137.fits  3138.5  1.006 outputs/superskies/objmask-biascor-ALyi070137[pl]
+  outputs/superskies/biascor-ALyi070138.fits  3148.5  1.003 outputs/superskies/objmask-biascor-ALyi070138[pl]
+  outputs/superskies/biascor-ALyi070139.fits   3169.  0.997 outputs/superskies/objmask-biascor-ALyi070139[pl]
+  outputs/superskies/biascor-ALyi070144.fits   2888.  1.094 outputs/superskies/objmask-biascor-ALyi070144[pl]
+  outputs/superskies/biascor-ALyi070145.fits  2818.5  1.121 outputs/superskies/objmask-biascor-ALyi070145[pl]
+  outputs/superskies/biascor-ALyi070146.fits   2805.  1.126 outputs/superskies/objmask-biascor-ALyi070146[pl]
+  outputs/superskies/biascor-ALyi070151.fits  2699.5  1.170 outputs/superskies/objmask-biascor-ALyi070151[pl]
+  outputs/superskies/biascor-ALyi070152.fits   2740.  1.153 outputs/superskies/objmask-biascor-ALyi070152[pl]
+  outputs/superskies/biascor-ALyi070153.fits   2778.  1.137 outputs/superskies/objmask-biascor-ALyi070153[pl]
+  outputs/superskies/biascor-ALyi070158.fits  2396.5  1.318 outputs/superskies/objmask-biascor-ALyi070158[pl]
+  outputs/superskies/biascor-ALyi070159.fits  2457.5  1.285 outputs/superskies/objmask-biascor-ALyi070159[pl]
+  outputs/superskies/biascor-ALyi070160.fits  2667.5  1.184 outputs/superskies/objmask-biascor-ALyi070160[pl]
+
+  Output image = outputs/superskies/sflat1, ncombine = 24

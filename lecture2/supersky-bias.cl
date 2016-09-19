@@ -31,8 +31,7 @@ objmasks1.fitxorder = 1
 objmasks1.fityorder = 1
 
 unlearn objmasks
-objmask.objmasks = '@supersky_objmask.list'
-objmask.skys = 'sky//@supersky_biascor.list'
+objmasks images='@supersky_biascor.list' objmasks='@supersky_objmask.list' skys='@supersky_sky.list'
 
 mscred
 
@@ -44,4 +43,50 @@ sflatcombine.masktype = '!objmask'
 sflatcombine.rdnoise = 4.2
 sflatcombine.gain = 0.33
 
-sflatcombine images='@supersky-biascor.list'
+sflatcombine input='@supersky_biascor.list'
+
+unlearn mscmedian
+mscmedian output = 'outputs/superskies/MedianTemp.fits' xwindow = 129 ywindow = 129 input='outputs/superskies/sflat1.fits'
+
+unlearn imarith
+imarith op='-' operand1 = 'outputs/superskies/sflat1.fits' operand2='outputs/superskies/MedianTemp.fits' result = 'outputs/superskies/fringe.fits'
+
+!echo
+!echo
+!echo rmfringe
+
+unlearn rmfringe
+rmfringe.background = '@supersky_sky.list'
+
+rmfringe output='@supersky_fringecor.list' fringe='outputs/superskies/fringe.fits' masks = '@supersky_objmask.list' input='@supersky_biascor.list'
+
+!echo
+!echo
+!echo sflatcombine
+
+unlearn sflatcombine
+sflatcombine.output='outputs/superskies/sflat2.fits'
+sflatcombine input='@supersky_fringecor.list' 
+
+!echo
+!echo
+!echo mkdir
+
+!mkdir output/superskies/final
+
+!echo
+!echo
+!echo ccdproc
+
+unlearn ccdred.ccdproc
+ccdred.ccdproc.output = '@supersky_final.list'
+ccdred.ccdproc.ccdtype=' '
+ccdred.ccdproc.fixpix = no
+ccdred.ccdproc.overscan = no
+ccdred.ccdproc.trim = no
+ccdred.ccdproc.zerocor = no
+ccdred.ccdproc.darkcor = no
+ccdred.ccdproc.flatcor = yes
+ccdred.ccdproc.flat = 'outputs/superskies/sflat21.fits'
+
+ccdred.ccdproc images='@supersky_fringecor.list'

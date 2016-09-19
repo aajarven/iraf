@@ -11,5 +11,5 @@ ikparams,s,h,'',,,'Image kernel parameters
 
 # Output parameters'
 nimages,i,h,1,,,'Number of images in list'
-imext,b,h,yes,,,'List contains image extensions'
+imext,b,h,no,,,'List contains image extensions'
 mode,s,h,'al'

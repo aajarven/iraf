@@ -1,0 +1,421 @@
+
+Sep 13 12:55: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 13 12:57 Trim data section is [58:2096,2:2036]
+outputs/masterbias.fits: Sep 13 12:57 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 13 12:57 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 13 12:58 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 13 12:58 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 13 12:58 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 13 12:58 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 13 12:58 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 13 12:58 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]: Sep 13 13:00 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]: Sep 13 13:00 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]: Sep 13 13:00 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]: Sep 13 13:00 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]: Sep 13 13:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]: Sep 13 13:01 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]: Sep 13 13:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]: Sep 13 13:01 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]: Sep 13 13:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]: Sep 13 13:01 Zero level correction image is outputs/masterbias.fits
+
+Sep 13 13:03: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  outputs/zerocor-flat1_raw.fits    5.2
+  outputs/zerocor-flat2_raw.fits    6.4
+  outputs/zerocor-flat3_raw.fits    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+outputs/zerocor-image1.fits: Sep 13 13:09 Flat field image is outputs/masterflat.fits with scale=92401.8
+outputs/zerocor-image1.fits: Sep 13 13:10 Flat field image is outputs/masterflat.fits with scale=92401.8
+outputs/zerocor-image1.fits: Sep 13 13:10 Flat field image is outputs/masterflat.fits with scale=92401.8
+outputs/zerocor-image2.fits: Sep 13 13:10 Flat field image is outputs/masterflat.fits with scale=92401.8
+outputs/zerocor-image3.fits: Sep 13 13:10 Flat field image is outputs/masterflat.fits with scale=92401.8
+
+Sep 19  1:03: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+
+Sep 19  1:07: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+
+Sep 19  1:11: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias, ncombine = 9
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19  1:11 Trim data section is [58:2096,2:2036]
+outputs/masterbias.fits: Sep 19  1:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19  1:11 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19  1:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19  1:11 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19  1:11 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19  1:11 Zero level correction image is outputs/masterbias.fits
+
+Sep 19  1:44: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  ../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]    5.2
+  ../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]    6.4
+  ../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+outputs/zerocor-image1.fits: Sep 19  1:44 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image2.fits: Sep 19  1:44 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image3.fits: Sep 19  1:44 Flat field image is outputs/masterflat.fits with scale=95807.79
+
+Sep 19  2:15: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19  2:15 Trim data section is [58:2096,2:2036]
+outputs/masterbias.fits: Sep 19  2:15 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19  2:15 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19  2:15 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19  2:15 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19  2:15 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19  2:15 Zero level correction image is outputs/masterbias.fits
+
+Sep 19  2:16: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  ../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]    5.2
+  ../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]    6.4
+  ../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+outputs/zerocor-image1.fits: Sep 19  2:16 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image2.fits: Sep 19  2:16 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image3.fits: Sep 19  2:16 Flat field image is outputs/masterflat.fits with scale=95807.79
+
+Sep 19  2:17: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19  2:17 Trim data section is [58:2096,2:2036]
+outputs/masterbias.fits: Sep 19  2:17 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage1_raw.fits[1]: Sep 19  2:17 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19  2:17 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage2_raw.fits[1]: Sep 19  2:17 Zero level correction image is outputs/masterbias.fits
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19  2:17 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/image/ALimage3_raw.fits[1]: Sep 19  2:17 Zero level correction image is outputs/masterbias.fits
+
+Sep 19  2:17: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images     Exp
+  ../rawdata/lecture2/skyflat/ALflat1_raw.fits[1]    5.2
+  ../rawdata/lecture2/skyflat/ALflat2_raw.fits[1]    6.4
+  ../rawdata/lecture2/skyflat/ALflat3_raw.fits[1]    8.0
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+outputs/zerocor-image1.fits: Sep 19  2:17 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image2.fits: Sep 19  2:17 Flat field image is outputs/masterflat.fits with scale=95807.79
+outputs/zerocor-image3.fits: Sep 19  2:17 Flat field image is outputs/masterflat.fits with scale=95807.79
+
+Sep 19  2:42: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+
+Sep 19  2:44: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19  2:46: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19  2:47: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19  2:47 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19  2:47 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19  3:00: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+
+Sep 19  3:01: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+outputs/superskies/masterbias.fits: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070063.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070064.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070065.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070070.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070071.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070072.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070123.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070124.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070125.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070130.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070131.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070132.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070137.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070138.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070139.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070144.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070145.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070146.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070151.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070152.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070153.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070158.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070159.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19  3:01 Trim data section is [58:2096,2:2036]
+../rawdata/lecture2/rawimage_i/ALyi070160.fits[1]: Sep 19  3:01 Zero level correction image is outputs/superskies/masterbias.fits
+
+Sep 19  3:02: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  ../rawdata/lecture2/bias/bias1_raw.fits[1]
+  ../rawdata/lecture2/bias/bias2_raw.fits[1]
+  ../rawdata/lecture2/bias/bias3_raw.fits[1]
+  ../rawdata/lecture2/bias/bias4_raw.fits[1]
+  ../rawdata/lecture2/bias/bias5_raw.fits[1]
+  ../rawdata/lecture2/bias/bias6_raw.fits[1]
+  ../rawdata/lecture2/bias/bias7_raw.fits[1]
+  ../rawdata/lecture2/bias/bias8_raw.fits[1]
+  ../rawdata/lecture2/bias/bias9_raw.fits[1]
+
+  Output image = outputs/superskies/masterbias.fits, ncombine = 9

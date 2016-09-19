@@ -1,0 +1,15 @@
+input,s,a,,,,'List of input files'
+output,s,h,'file','|none|list|file|',,'Output type'
+index,s,h,'',,,'Extension index range list'
+extname,s,h,'',,,'Extension name pattern'
+extver,s,h,'',,,'Extension version range list'
+lindex,b,h,yes,,,'List with index?'
+lname,b,h,no,,,'List with extension name?'
+lver,b,h,no,,,'List with extension version?'
+dataless,b,h,no,,,'Include dataless image headers?'
+ikparams,s,h,'',,,'Image kernel parameters
+
+# Output parameters'
+nimages,i,h,1,,,'Number of images in list'
+imext,b,h,yes,,,'List contains image extensions'
+mode,s,h,'al'

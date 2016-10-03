@@ -1,0 +1,29 @@
+# Tue 14:02:41 27-Sep-2016
+begin	aperture last 1 251.6678 1024.
+	image	last
+	aperture	1
+	beam	1
+	center	251.6678 1024.
+	low	-16.82964 -1023.
+	high	23.50806 1024.
+	background
+		xmin -175.288
+		xmax 210.7896
+		function chebyshev
+		order 1
+		sample  -175.288:-36.22012 37.74001:210.7896
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	1
+	curve	7
+		2.
+		3.
+		24.
+		2024.
+		0.1351147
+		-1.972863
+		-0.5671459
+

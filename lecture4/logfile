@@ -1,0 +1,110 @@
+
+Sep 27 12:23: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+     bias/bias1.fits[1]
+     bias/bias2.fits[1]
+     bias/bias3.fits[1]
+     bias/bias4.fits[1]
+     bias/bias5.fits[1]
+     bias/bias6.fits[1]
+     bias/bias7.fits[1]
+     bias/bias8.fits[1]
+     bias/bias9.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+raw/ALHalogen1.fits[1]: Sep 27 12:23 Trim data section is [58:2096,2:2036]
+outputs/masterbias.fits: Sep 27 12:23 Trim data section is [58:2096,2:2036]
+raw/ALHalogen1.fits[1]: Sep 27 12:23 Zero level correction image is outputs/masterbias.fits
+raw/ALHalogen2.fits[1]: Sep 27 12:23 Trim data section is [58:2096,2:2036]
+raw/ALHalogen2.fits[1]: Sep 27 12:23 Zero level correction image is outputs/masterbias.fits
+raw/ALHalogen3.fits[1]: Sep 27 12:23 Trim data section is [58:2096,2:2036]
+raw/ALHalogen3.fits[1]: Sep 27 12:23 Zero level correction image is outputs/masterbias.fits
+raw/ALHeNe.fits[1]: Sep 27 12:23 Trim data section is [58:2096,2:2036]
+raw/ALHeNe.fits[1]: Sep 27 12:23 Zero level correction image is outputs/masterbias.fits
+raw/ALspectra.fits[1]: Sep 27 12:23 Trim data section is [58:2096,2:2036]
+raw/ALspectra.fits[1]: Sep 27 12:23 Zero level correction image is outputs/masterbias.fits
+
+Sep 27 12:32: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+     bias/bias1.fits[1]
+     bias/bias2.fits[1]
+     bias/bias3.fits[1]
+     bias/bias4.fits[1]
+     bias/bias5.fits[1]
+     bias/bias6.fits[1]
+     bias/bias7.fits[1]
+     bias/bias8.fits[1]
+     bias/bias9.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
+raw/ALHalogen1.fits[1]: Sep 27 12:32 Trim data section is [1:2148,2:2049]
+outputs/masterbias.fits: Sep 27 12:32 Trim data section is [1:2148,2:2049]
+raw/ALHalogen1.fits[1]: Sep 27 12:32 Zero level correction image is outputs/masterbias.fits
+raw/ALHalogen2.fits[1]: Sep 27 12:32 Trim data section is [1:2148,2:2049]
+raw/ALHalogen2.fits[1]: Sep 27 12:32 Zero level correction image is outputs/masterbias.fits
+raw/ALHalogen3.fits[1]: Sep 27 12:32 Trim data section is [1:2148,2:2049]
+raw/ALHalogen3.fits[1]: Sep 27 12:32 Zero level correction image is outputs/masterbias.fits
+raw/ALHeNe.fits[1]: Sep 27 12:32 Trim data section is [1:2148,2:2049]
+raw/ALHeNe.fits[1]: Sep 27 12:32 Zero level correction image is outputs/masterbias.fits
+raw/ALspectra.fits[1]: Sep 27 12:32 Trim data section is [1:2148,2:2049]
+raw/ALspectra.fits[1]: Sep 27 12:32 Zero level correction image is outputs/masterbias.fits
+
+Sep 27 12:43: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images 
+  outputs/biascor-ALHalogen1.fits
+  outputs/biascor-ALHalogen2.fits
+  outputs/biascor-ALHalogen3.fits
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+
+Sep 27 12:44: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images 
+  outputs/biascor-ALHalogen1.fits
+  outputs/biascor-ALHalogen2.fits
+  outputs/biascor-ALHalogen3.fits
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+
+Sep 27 12:45: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = crreject, mclip = yes, nkeep = 1
+  rdnoise = 4.2, gain = 0.33, snoise = 0., hsigma = 3.
+  blank = 0.
+                Images 
+  outputs/biascor-ALHalogen1.fits
+  outputs/biascor-ALHalogen2.fits
+  outputs/biascor-ALHalogen3.fits
+
+  Output image = outputs/masterflat.fits, ncombine = 3
+outputs/biascor-ALHalogen1.fits: Sep 27 12:45 Flat field image is outputs/masterflat.fits with scale=11547.53
+
+Oct  3 14:52: IMCOMBINE
+  combine = median, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+     bias/bias1.fits[1]
+     bias/bias2.fits[1]
+     bias/bias3.fits[1]
+     bias/bias4.fits[1]
+     bias/bias5.fits[1]
+     bias/bias6.fits[1]
+     bias/bias7.fits[1]
+     bias/bias8.fits[1]
+     bias/bias9.fits[1]
+
+  Output image = outputs/masterbias.fits, ncombine = 9
